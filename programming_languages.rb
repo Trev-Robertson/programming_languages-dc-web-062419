@@ -33,11 +33,6 @@ languages =     {
         }
         
         
-        
-        
-        
-        
-        
 def reformat_languages(languages)
   rl = {}
   
@@ -57,11 +52,7 @@ def reformat_languages(languages)
           
           rl[language_name][:style] << style
         end
-          #rl[language_name][:style] << style
-            #if rl[language_name] == :javascript
-            #rl[language_name][:style] = []
-        
-      #end
+
     end
   rl
 
